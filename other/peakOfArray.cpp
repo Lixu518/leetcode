@@ -20,7 +20,7 @@ int findPeak(vector<int>& nums){
 }
 
 int main(){
-    vector<int>nums = {1,3,7,11,34,2,1};
+    vector<int>nums = {3,2,1,0,0,0,0};
     cout<<findPeak(nums)<<endl;
     return 0;
 }
